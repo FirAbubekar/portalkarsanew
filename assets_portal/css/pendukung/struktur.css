@@ -1,0 +1,303 @@
+.title1 {
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    font-weight: bold;
+    color: #105b50;
+    font-size: 40px;
+}
+.nama{
+    padding-top:20px ;
+    font-size: 15px;
+    height: 80px;
+    font-weight: bold;
+    color: #005145;
+}
+.jabatan{
+    color: rgb(97, 71, 71);
+    font-weight: normal;
+    letter-spacing: 0.01em;
+}
+
+.namaa {
+    padding: 20px;
+    font-size: 20pt;
+    height: 80px;
+    text-align: center;
+    font-weight: bold;
+    color: #005145;
+}
+
+.jabatann{
+    color: rgb(97, 71, 71);
+    font-weight: bold;
+    padding:5px;
+    width: 100%;
+    font-size: 20pt;
+    text-align: center;
+
+}
+
+.d_visi {
+    width: 100%;
+    height: 100%;
+    padding-bottom: 20px;
+    padding-left: 10%;
+    padding-right: 10%;
+    color: #105b50;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.d_misi {
+    padding-left: 10%;
+    padding-bottom: 120px;
+    color: #105b50;
+}
+
+.medsos {
+    width: 100%;
+}
+
+.n_visi {
+    padding-bottom: 20px;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    /*padding-bottom: 90px;*/
+}
+.center1 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    /*padding-bottom: 90px;*/
+}
+
+* {
+    box-sizing: border-box;
+}
+
+
+/* Center website */
+.main {
+    max-width: 100%;
+    margin-top: 20px;
+    margin-bottom: 120px;
+    margin-left: 18%;
+    margin-right: 18%;
+}
+
+.rows {
+    margin: 8px -16px;
+}
+
+/* Add padding BETWEEN each column */
+.rows,
+.rows>.column {
+    padding: 8px;
+}
+
+/* Create four equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 25%;
+    height: auto;
+    padding-top: 40px;
+}
+.column1 {
+    float: left;
+    width: 100%;
+    height: 400px;
+    margin-bottom: 140px;
+}
+
+/* Clear floats after rows */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Content */
+.content {
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    height: auto;
+    border-radius: 10px;
+    width: auto;
+}
+
+.contents {
+    background-color: #FFFFFF;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    padding-left: 0%;
+    padding-right: 0%;
+    border-radius: 10px;
+    padding-top: 20px;
+    height: 520px;
+    width: 354px;
+    margin: auto;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 990px) {
+    .column {
+        width: 50%;
+        padding-top: 40px;
+    }
+    .center1 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    /*padding-bottom: 90px;*/
+        }
+    .column1 {
+        float: left;
+        width: 100%;
+    }
+
+    .contents {
+        /*padding-left: 20px;
+        padding-right: 20px;*/
+        background-color: #FFFFFF;
+        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+        padding: 10px;
+        height: 560px;
+        border-radius: 10px;
+    }
+    .content {
+        background-color: #FFFFFF;
+        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+        padding: 10px;
+        height: auto;
+        border-radius: 10px;
+        width: auto;
+        
+    }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+    .column {
+        width: 100%;
+        margin-bottom: 20px;
+        padding-top: 10px;
+        
+    }
+    .column1 {
+        float: left;
+        width: 100%;
+        height: 350px;
+        margin-bottom: 0px;
+    }
+
+    .f_logo {
+        width: 98%;
+    }
+
+    .h_logo {
+        width: 80%;
+    }
+    .content {
+        background-color: #FFFFFF;
+        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+        padding: 20px;
+        height: auto;
+        border-radius: 10px;
+        width: auto;
+        
+    }
+    .contents {
+        background-color: #FFFFFF;
+        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+        padding: 20px;
+        height: auto;
+        border-radius: 10px;
+    }
+
+    .title1 {
+        padding-left: 10%;
+        padding-bottom: 50px;
+        padding-top: 50px;
+        color: #105b50;
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 760px) {
+    .column {
+        width: 100%;
+        padding-top: 40px;
+    }
+
+    .f_logo {
+        width: 98%;
+    }
+
+    .h_logo {
+        width: 80%;
+    }
+    .content {
+        background-color: #FFFFFF;
+        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+        padding: 20px;
+        height: auto;
+        border-radius: 10px;
+        width: auto;
+        
+    }
+
+    .contents {
+        background-color: #FFFFFF;
+        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+        padding: 20px;
+        height: auto;
+        border-radius: 10px; 
+        height: auto;
+        width: auto;
+    
+    }
+
+    .title1 {
+        padding-left: 10%;
+        padding-bottom: 50px;
+        padding-top: 50px;
+        color: #105b50;
+        font-size: 20px;
+    }
+     .column1 {
+        float: left;
+        width: 100%;
+        height: auto;
+        margin-bottom: 0px;
+    }
+
+    .jabatann{
+    color: rgb(97, 71, 71);
+    font-weight: bold;
+    padding:5px;
+    width: 100%;
+    font-size: 25pt;
+    text-align: center;
+
+}
+
+
+    .namaa {
+    padding: 20px;
+    font-size: 20px;
+    height: auto;
+    text-align: center;
+    font-weight: bold;
+    color: #005145;
+}
+}

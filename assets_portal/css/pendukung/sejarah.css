@@ -1,0 +1,108 @@
+.title1 {
+    padding-left: 10%;
+    padding-bottom: 50px;
+    color: #105b50;
+    font-size: 40px;
+}
+
+.d_visi {
+    width: 100%;
+    height: 100%;
+    padding-bottom: 20px;
+    padding-left: 10%;
+    padding-right: 10%;
+    color: #105b50;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.misi {
+    padding-top: 120px;
+    padding-bottom: 20px;
+    color: #105b50;
+}
+
+.medsos {
+    width: 100%;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.main {
+    max-width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 18%;
+    margin-right: 18%;
+}
+
+/* Create four equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 25%;
+}
+
+/* Clear floats after rows */
+/* Content */
+.content {
+    background-color: white;
+    padding: 10px;
+}
+
+.contents {
+    padding-left: 35%;
+    padding-right: 35%;
+}
+
+.f_logo {
+    width: 300px;
+}
+
+@media screen and (max-width: 1000px) {
+    .contents {
+        padding: 10px;
+    }
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 900px) {
+    .column {
+        width: 50%;
+    }
+
+    .title1 {
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-bottom: 50px;
+        color: #105b50;
+    }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+    .column {
+        width: 100%;
+    }
+
+    .contents {
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
+    .f_logo {
+        width: 100%;
+    }
+
+    .title1 {
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-bottom: 50px;
+        color: #105b50;
+    }
+}

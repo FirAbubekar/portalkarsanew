@@ -1,0 +1,308 @@
+.title1 {
+    padding-left: 10%;
+    padding-right: 10%;
+    
+    padding-bottom: 20px;
+    color: #105b50;
+}
+
+
+/* Content */
+.content {
+    background-color: #f1f1f1;
+    padding: 10px;
+    box-shadow: 5px 10px #dedede;
+}
+
+
+.title {
+    padding-bottom: 20px;
+    padding-left: 10%;
+    padding-right: 10%;
+    font-weight: bold;
+    font-size: 45px;
+    color: #105b50;
+}
+
+.l_file {
+    height: 180px;
+    margin: 15px;
+    border: 1px solid #009982;
+    border-radius: 5px;
+    width: 240px;
+}
+.files{
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+
+.icon {
+    width: 100%;
+}
+
+.gmbr {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+.filename {
+    width: 100%;
+    font-size: 15px;
+    text-align: center;
+    font-weight: bold;
+    color: rgb(16, 91, 80);
+    margin-bottom: 30px;
+}
+
+.l_file:hover {
+    opacity: 1;
+    background-color: #009982;
+}
+
+.l_file:hover .filename {
+    opacity: 1;
+    color: #fff;
+}
+
+.main {
+    max-width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.f_logo {
+    width: 300px;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 1000px) {
+    .gmbr {
+        width: 100%;
+    }
+    .l_file {
+    height: 300px;
+    margin-bottom: 20px;
+    margin-top: 0px;
+}
+
+    .files {
+        padding-bottom: 20px;
+        padding-top: 20px;
+        height: auto;
+        
+    }
+
+    .icon {
+        width: 100%;
+
+    }
+
+}
+
+@media screen and (max-width: 950px) {
+    .gmbr {
+        width: 100%;
+    }
+
+    .files {
+        padding-bottom: 20px;
+        padding-top: 20px;
+        height: auto;
+    }
+
+    .icon {
+        width: 100%;
+    }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 770px) {
+
+    .l_file {
+        padding-top: 10px;
+        height: auto;
+        padding-bottom: 10px;
+    }
+
+    .gmbr {
+        width: 100%;
+    }
+
+    .files {
+        padding-bottom: 20px;
+        padding-top: 20px;
+        height: auto;
+        
+    }
+
+    .f_logo {
+        width: 80%;
+    }
+
+    .h_logo {
+        width: 50%;
+    }
+
+}
+
+@media screen and (max-width: 300px) {
+
+    .l_file {
+        padding-top: 10px;
+        height: auto;
+        padding-bottom: 10px;
+    }
+
+    .title {
+        padding-bottom: 20px;
+        padding-left: 5px;
+        padding-right: 5px;
+        font-size: 15px;
+        color: #105b50;
+    }
+
+    .gmbr {
+        width: 100%;
+    }
+
+    .files {
+        padding-bottom: 20px;
+        padding-top: 20px;
+        height: auto;
+        
+    }
+
+    .f_logo {
+        width: 80%;
+    }
+
+    .h_logo {
+        width: 60%;
+    }
+
+    .col-lg-1,
+    .col-lg-10,
+    .col-lg-11,
+    .col-lg-12,
+    .col-lg-2,
+    .col-lg-3,
+    .col-lg-4,
+    .col-lg-5,
+    .col-lg-6,
+    .col-lg-7,
+    .col-lg-8,
+    .col-lg-9,
+    .col-md-1,
+    .col-md-10,
+    .col-md-11,
+    .col-md-12,
+    .col-md-2,
+    .col-md-3,
+    .col-md-4,
+    .col-md-5,
+    .col-md-6,
+    .col-md-7,
+    .col-md-8,
+    .col-md-9,
+    .col-sm-1,
+    .col-sm-10,
+    .col-sm-11,
+    .col-sm-12,
+    .col-sm-2,
+    .col-sm-3,
+    .col-sm-4,
+    .col-sm-5,
+    .col-sm-6,
+    .col-sm-7,
+    .col-sm-8,
+    .col-sm-9,
+    .col-xs-1,
+    .col-xs-10,
+    .col-xs-11,
+    .col-xs-12,
+    .col-xs-2,
+    .col-xs-3,
+    .col-xs-4,
+    .col-xs-5,
+    .col-xs-6,
+    .col-xs-7,
+    .col-xs-8,
+    .col-xs-9 {
+        position: relative;
+        min-height: 1px;
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+
+}
+div.gallery {
+        border: 1px solid #ccc;
+    }
+
+    div.gallery:hover {
+        border: 1px solid #777;
+    }
+
+    div.gallery img {
+        width: 100%;
+        height: auto;
+    }
+
+    div.desc {
+        padding: 15px;
+        text-align: left;
+        background: whitesmoke;
+    }
+
+    * {
+        box-sizing: border-box;
+    }
+
+    .responsive {
+        padding: 0 6px;
+        float: left;
+        width: 100%;
+        opacity: 1;
+    }
+
+    .single-blog:hover .responsive {
+        padding: 0 6px;
+        float: left;
+        width: 100%;
+        opacity: 0.5;
+    }
+
+    @media only screen and (max-width: 700px) {
+        .responsive {
+            width: 100%;
+            margin: 6px 0;
+        }
+    }
+
+    .f_logo {
+        width: 300px;
+    }
+
+    @media only screen and (max-width: 500px) {
+        .responsive {
+            width: 100%;
+        }
+
+        .f_logo {
+            width: 100%;
+        }
+    }
+
+    .clearfix:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+
+    .sosmed {
+        width: 100%;
+    }

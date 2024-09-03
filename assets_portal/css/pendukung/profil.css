@@ -1,0 +1,37 @@
+.title1 {
+    padding-left: 10%;
+    padding-right: 10%;
+    /*padding-bottom: 20px;*/
+    color: #105b50 ;
+}
+.d_visi {
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 20px;
+    color: #105b50 ;
+}
+.visi{
+    margin-bottom: 80px;
+}
+.d_misi {
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 120px;
+    color: #105b50 ;
+}
+.medsos {
+    width: 100%;
+}
+.n_visi {
+    padding-bottom: 20px;
+    font-size: 17px;
+}
+.f_logo {
+    width: 300px;
+}
+@media screen and (max-width: 600px) {
+    .f_logo {
+        width: 80%;
+    }
+
+}

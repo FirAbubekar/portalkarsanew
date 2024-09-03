@@ -1,0 +1,213 @@
+.title1 {
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 20px;
+    color: #105b50;
+}
+
+.d_visi {
+    width: 100%;
+    height: 100%;
+    padding-bottom: 20px;
+    padding-left: 15%;
+    padding-right: 15%;
+    color: #105b50;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.d_misi {
+    padding-bottom: 120px;
+    color: #105b50;
+}
+
+.medsos {
+    width: 100%;
+}
+
+.n_visi {
+    padding-bottom: 20px;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.box {
+    border-radius: 0%;
+    background-color: #fff;
+    text-align: right;
+}
+
+.desc {
+    padding-right: 8px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+
+.main {
+    max-width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.rows {
+    margin: 8px -16px;
+}
+
+/* Add padding BETWEEN each column */
+.rows,
+.rows>.column {
+    padding: 8px;
+}
+
+/* Create four equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 25%;
+    padding-bottom: 20px;
+}
+
+/* Clear floats after rows */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Content */
+.content {
+    background-color: #f1f1f1;
+    border-radius: 2%;
+    padding: 10px;
+    box-shadow: 5px 10px #dedede;
+}
+
+.filter {
+    width: 25%;
+    padding-left: 10%;
+    text-align: right;
+}
+
+.contents {
+    padding-left: 35%;
+    padding-right: 35%;
+}
+
+.title {
+    padding-bottom: 20px;
+    padding-left: 10%;
+    padding-right: 10%;
+    color: #105b50;
+}
+
+.subtitle {
+    padding-bottom: 20px;
+}
+
+div.relative {
+    position: relative;
+    width: 100%;
+    padding-bottom: 80px;
+}
+
+
+div.absolute {
+    position: absolute;
+    right: 10%;
+    width: 15%;
+}
+
+.l_file {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.files {
+    padding-bottom: 20px;
+    padding-top: 20px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #d4d4d4;
+    border-radius: 10px;
+}
+
+.files:hover {
+    opacity: 1;
+    background-color: #009982;
+}
+
+.files:hover .filename {
+    opacity: 1;
+    color: #fff;
+}
+
+.main {
+    max-width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.gmbr {
+    width: 120%;
+}
+
+.filename {
+    color: rgb(119, 119, 119);
+    margin-left: -10px;
+    margin-top: -15px;
+}
+
+.tsearch {
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(34, 219, 219);
+}
+
+.f_logo {
+    width: 300px;
+}
+
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 775px) {
+    .gmbr {
+        width: 100%;
+    }
+.l_file {
+    padding-top: 10px;
+    padding-bottom: 120px;
+    height: auto;
+    margin-bottom: 80px;
+
+}
+
+    .f_logo {
+        width: 80%;
+    }
+    .col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-xs-1, .col-xs-10, .col-xs-11, .col-xs-12, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9 {
+position: relative;
+min-height: 1px;
+
+}
+
+}
+@media screen and (max-width: 380px) {
+    .gmbr {
+
+    width: 50px;
+    height: 60px;
+
+}
+}

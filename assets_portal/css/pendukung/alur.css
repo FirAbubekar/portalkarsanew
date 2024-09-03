@@ -1,0 +1,119 @@
+
+  /* Clear floats after rows */
+ 
+  .content {
+    
+    padding: 10px;
+    border-radius: 10px;
+  }
+  .t_cont {
+    padding-bottom: 12px;
+    padding-top: 12px;
+    background-color: #fff;
+  }
+
+  /* The "show" class is added to the filtered elements */
+  .show {
+    display: block;
+  }
+
+  /* Style the buttons */
+  
+  .title {
+    padding-left: 10%;
+    font-size: 38px;
+    color: #009982;
+    padding-bottom: 0px;
+  }
+
+  
+
+  .f_logo {
+    width: 300px;
+  }
+
+  @media screen and (max-width: 900px) {
+    .f_logo {
+      width: 80%;
+    }
+    .title {
+    padding-left: 20px;
+    font-size: 30px;
+    color: #009982;
+    padding-bottom: 50px;
+  }
+
+   
+  }
+
+  @media screen and (max-width: 500px) {
+    .f_logo {
+      width: 80%;
+    }
+    .title {
+    padding-left: 20px;
+    font-size: 24px;
+    color: #009982;
+    padding-bottom: 20px;
+  }
+  section {
+        padding: 0px 0;
+      }
+
+  
+  }
+  section {
+        padding: 60px 0;
+      }
+
+      section .section-title {
+        text-align: center;
+        color: #007b5e;
+        margin-bottom: 50px;
+        text-transform: uppercase;
+      }
+      .nav {
+    padding-left: 0;
+    margin-bottom: 50px;
+    list-style: none;
+}
+      #tabs {
+        background: #ffffff;
+        color: #eee;
+      }
+
+      #tabs h6.section-title {
+        color: #eee;
+      }
+
+      #tabs .nav-tabs .nav-item.show .nav-link,
+      .nav-tabs .nav-link.active {
+        color: #f3f3f3;
+        background-color: transparent;
+        border-color: transparent transparent #009982;
+        border-bottom: 4px solid !important;
+        font-size: 16px;
+      }
+
+      #tabs .nav-tabs .nav-link {
+
+        color: #009982;
+        font-size: 13px;
+        font-weight: bold;
+        background-color: #C2F1EA;
+        padding-top: 10px;
+        padding-bottom: 10px;
+      }
+
+      #tabs .nav-tabs .nav-link.active {
+color: #fff;
+background-color: rgb(0, 128, 108);
+}
+@media screen and (max-width: 500px) {
+    
+  section {
+        padding: 0px 0;
+      }
+
+   
+  }

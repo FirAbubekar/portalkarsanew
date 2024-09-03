@@ -1,0 +1,46 @@
+.title1 {
+    padding-left: 10%;
+    padding-bottom: 20px;
+    color: #105b50 ;
+}
+.d_visi {
+    padding-left: 10%;
+    padding-bottom: 20px;
+    color: #105b50 ;
+}
+.d_misi {
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 100px;
+    color: #105b50 ;
+    padding-top: 90px;
+}
+.medsos {
+    width: 100%;
+}
+.n_visi {
+    padding-bottom: 20px;
+}
+.justify-content-between {
+    width: 100%;
+    padding-left: 5%;
+    padding-right: 5%;
+    flex: 0 0 auto;
+    text-align: center;
+    color: #105b50;
+}
+.fun-factor-wrap1 > h2 > span {
+    font-size: 70pt;
+}
+.f_logo {
+    width: 300px;
+}
+@media screen and (max-width: 600px) {
+    .f_logo {
+        width: 100%;
+    }
+    .table {
+        width: 100%;
+    }
+
+}
